@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import './blog-list.styles.scss';
 
 const BlogList = () => {

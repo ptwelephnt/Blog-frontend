@@ -1,11 +1,11 @@
 import './App.css'
-import BlogList from './components/blog-list/blog-list.component'
+import BlogHome from './components/blog-home/blog-home.component'
 
 function App() {
 
   return (
     <>
-      <BlogList />
+      <BlogHome />
     </>
   )
 }
