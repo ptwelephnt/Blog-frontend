@@ -1,0 +1,9 @@
+.filter {
+    width: 100%;
+    padding: 5vh 5vw;
+
+    .textbox-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}

@@ -1,0 +1,25 @@
+.filter-checkbox {
+    display: flex;
+    flex-direction: column;
+    .checkbox-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+        justify-items: center;
+        gap: 10px;
+        width: 100%;    
+    }
+    .option {
+      display: flex;
+      align-items: center;
+  
+      input[type='checkbox'] {
+        margin-right: 8px;
+      }
+  
+      label {
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+  
