@@ -2,3 +2,18 @@
     height: 20vh;
     overflow: hidden;
 }
+
+.blog-entry.preview.even {
+    background-color: rgb(106, 106, 255);
+    color: white;
+}
+
+.blog-entry.preview.odd {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.full-size {
+    width: 100%;
+    height: 100%;
+}
